@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f1f5f9;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: #0f172a;
+  color: white;
+  padding: 18px 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.login-link {
+  color: white;
+  font-size: 16px;
+}
+
+/* HOME */
+
+.container {
+  width: 85%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.heading {
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.search-box {
+  width: 320px;
+  margin-bottom: 20px;
+}
+
+/* JOB CARD */
+
+.job-card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  border-radius: 10px;
+
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.job-card h3 {
+  margin-bottom: 10px;
+  color: #0f172a;
+}
+
+.job-card p {
+  margin-bottom: 8px;
+  color: #475569;
+}
+
+.job-btn {
+  margin-top: 10px;
+}
+
+/* JOB DETAILS */
+
+.details-card {
+  background-color: white;
+
+  padding: 30px;
+
+  border-radius: 10px;
+
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.details-card h2 {
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.details-card p {
+  margin-bottom: 15px;
+  color: #475569;
+}
+
+/* FORM */
+
+.form-container {
+  width: 400px;
+
+  margin: 50px auto;
+
+  background-color: white;
+
+  padding: 30px;
+
+  border-radius: 10px;
+
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #0f172a;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.welcome-text {
+  color: white;
+  font-size: 15px;
+}
